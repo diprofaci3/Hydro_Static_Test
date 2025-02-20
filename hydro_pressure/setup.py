@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='sensor_system',  # Replace with your package name
+    name='hydro_pressure',  # Replace with your package name
     version='0.0.0',
-    packages=['sensor_system'],  # This should match your Python module's directory
+    packages=['hydro_pressure'],  # This should match your Python module's directory
     install_requires=[
         'rospy',
         'pyqt5',
