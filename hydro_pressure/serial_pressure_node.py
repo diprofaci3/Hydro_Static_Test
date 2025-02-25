@@ -6,8 +6,8 @@ import time
 
 ser = serial.Serial('/dev/ttyS0', 115200)
 rospy.init_node('serial_pressure_node')
-pub = rospy.Publisher('local_sensor_data', Int32, queue_size=10)
-pub2 = rospy.Publisher('local_sensor_data_2', Int32, queue_size=10)
+pub = rospy.Publisher('pressureV_sensor_data', Int32, queue_size=10)
+pub2 = rospy.Publisher('pressureV_sensor_data_2', Int32, queue_size=10)
 
 def read_serial():
     while not rospy.is_shutdown():
